@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+
+}
+body{
+    background-color: rgb(72, 0, 103);
+}
+.container{
+    background-color: darkviolet;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.innercontainer1{
+    width: 40%;
+    border-radius: 10px;
+}
+/* option{
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+} */
+
+
+
+
+
+.clocklogo{
+    text-align: left;
+    padding-bottom: 20px;
+}
+.timecard{
+    color: darkviolet;
+    background-color: white;
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 900;
+}
+.card1{
+    display: flex;
+    justify-content: space-around;  
+    align-items: flex-start;
+    margin: 10px;
+}
+.line{
+    position: relative;
+    right: 40%;
+}
+.selectfrom{
+    text-decoration: none;
+    width: 40%;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+}
+
+.card2{
+    background-color: rgb(135, 7, 255);
+    color: white;
+    margin: 20px 0px;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+    align-content: center ;
+    font-weight: bolder;
+    width: 100%;
+}
+
+
+.card3{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 10px;
+}
+#button:hover{
+    background-image:linear-gradient(to left rgb(124, 0, 249), rgb(248, 0, 248));
+}
+#button{
+    margin-top: -10%;
+    font-size: x-large;
+    color: white;
+    font:bolder;
+    border: none;
+    border-radius: 5px;
+    width:230px;
+    height: 40px;
+    background-image:linear-gradient(to right, rgb(124, 0, 249), rgb(248, 0, 248));
+}
+.card32{
+    padding: 20px;
+    width: 50%;
+    background-color: rgb(135, 7, 255);
+    color: rgb(212, 42, 231);
+    border-radius: 5px;
+}
+
+
+.innercontainer2{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.time{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    gap: 20px;
+    z-index: 7;
+    font-weight: 600;
+    color: darkviolet;
+    border-radius: 10px;
+    height: 100px;
+    margin: 10px;
+}
+.time2{
+    display: flex;
+    gap: 20px;
+    font-size: larger;
+    font-weight: 900;
+}
+.hours{
+    color: darkviolet;
+    align-content: center;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+    background-color: lightpink;
+    font-weight: 600;
+} 
+.mins{
+    border-radius: 3px;
+    color: darkviolet;
+    align-content: center;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    background-color: lightpink;
+    font-weight: 600;
+}  
+.sec{
+    border-radius: 3px;
+    align-content: center;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    color: darkviolet;
+    background-color: lightpink;
+    font-weight: 600;
+}
+.ampm{
+    border-radius: 3px;
+    align-content: center;
+    padding: 5px;
+    height: 50px;
+    width: 50px;
+    background-image: linear-gradient(to bottom right,  rgb(124, 0, 249), rgb(248, 0, 248));
+    color: white;
+    font-weight: 600;
+}
+.background1{
+    z-index: 5;
+    margin-top: -90px;
+    width: 90%;
+    background-color: rgba(186, 145, 205, 0.671);
+}
+.background2{
+    z-index: 2;
+    margin-top: -90px;
+    width: 80%;
+    background-color: rgba(169, 77, 211, 0.671);
+}
+.divsettime{
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    height: 100px;
+    align-content: center;
+    color: blueviolet;
+    font-size: xx-large;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:300px) and (max-width:550px) {
+    .clocklogo{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 10px;
+        margin: 10px;
+    }
+    .timecard{
+        margin-top: 100px;
+    }
+    
+    
+    .container{
+        flex-direction: column;
+    }
+    .timecard{
+        margin-left: -100px;
+        width: 350PX;
+    }
+    .card2{
+        width: 390PX;
+        margin-left: -115px;
+
+    }
+    .card3{
+        flex-direction: column;
+        width: 100%;
+    }
+    .button{
+        margin-left: -5px;
+        width: 390PX;   
+    }
+    .card32{
+        width: 350PX;   
+    }
+    .innercontainer2{
+        width: 100%;
+    }
+    #clockimage{
+        width: 100%;
+    }
+}
+
+
